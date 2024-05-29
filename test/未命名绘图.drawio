@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2024-05-29T20:29:42.646Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/125.0.0.0 Safari/537.36 Edg/125.0.0.0" etag="EEGtd2LG5YyjSTff_f_I" version="24.4.10" type="github">
+<mxfile host="app.diagrams.net" modified="2024-05-29T20:34:45.120Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/125.0.0.0 Safari/537.36 Edg/125.0.0.0" etag="O8UqUZA2zS3dbdjxa2t_" version="24.4.10" type="github">
   <diagram id="prtHgNgQTEPvFCAcTncT" name="Page-1">
     <mxGraphModel dx="1341" dy="1026" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1654" pageHeight="2336" math="0" shadow="0">
       <root>
@@ -188,6 +188,18 @@
         </mxCell>
         <mxCell id="Z-QhGD6ONhxHMMDBWDxq-29" value="connection_pool：WebSocket服务内需要自行维护一个Map来保存与客户端的Session，用于推送消息&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;存储数据格式为ConcurrentHashMap&amp;lt;Session,Object&amp;gt;&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=15;" vertex="1" parent="1">
           <mxGeometry x="1150" y="1050" width="340" height="10" as="geometry" />
+        </mxCell>
+        <mxCell id="Z-QhGD6ONhxHMMDBWDxq-102" value="问题清单" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1180" y="1576" width="410" height="320" as="geometry" />
+        </mxCell>
+        <mxCell id="Z-QhGD6ONhxHMMDBWDxq-103" value="客户端绑定后，后台服务如何确定ONLINE状态" style="text;strokeColor=default;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" vertex="1" parent="Z-QhGD6ONhxHMMDBWDxq-102">
+          <mxGeometry y="30" width="410" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="Z-QhGD6ONhxHMMDBWDxq-104" value="客户端绑定成功后，下线后再重连，Websocket服务如何处理" style="text;strokeColor=default;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" vertex="1" parent="Z-QhGD6ONhxHMMDBWDxq-102">
+          <mxGeometry y="60" width="410" height="110" as="geometry" />
+        </mxCell>
+        <mxCell id="Z-QhGD6ONhxHMMDBWDxq-105" value="Item 3" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" vertex="1" parent="Z-QhGD6ONhxHMMDBWDxq-102">
+          <mxGeometry y="170" width="410" height="150" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
