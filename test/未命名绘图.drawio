@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2024-05-29T20:47:32.770Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/125.0.0.0 Safari/537.36 Edg/125.0.0.0" etag="-g3GMna-2czEvpR9Nato" version="24.4.10" type="github">
+<mxfile host="app.diagrams.net" modified="2024-05-29T20:54:25.118Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/125.0.0.0 Safari/537.36 Edg/125.0.0.0" etag="DCOmnYP49XKlgVYBMl0I" version="24.4.10" type="github">
   <diagram id="prtHgNgQTEPvFCAcTncT" name="Page-1">
     <mxGraphModel dx="1341" dy="1026" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1654" pageHeight="2336" math="0" shadow="0">
       <root>
@@ -131,7 +131,7 @@
         <mxCell id="Z-QhGD6ONhxHMMDBWDxq-85" value="绑定失败" style="whiteSpace=wrap;html=1;" vertex="1" parent="Z-QhGD6ONhxHMMDBWDxq-8">
           <mxGeometry x="75.00500000000007" y="937.9667819120975" width="120" height="69.90825688073393" as="geometry" />
         </mxCell>
-        <mxCell id="Z-QhGD6ONhxHMMDBWDxq-68" value="断开WebSocket连接" style="whiteSpace=wrap;html=1;" vertex="1" parent="Z-QhGD6ONhxHMMDBWDxq-1">
+        <mxCell id="Z-QhGD6ONhxHMMDBWDxq-68" value="断开WebSocket连接，移除&lt;span style=&quot;font-size: 13px;&quot;&gt;connection_pool对应Session&lt;/span&gt;" style="whiteSpace=wrap;html=1;fontSize=13;" vertex="1" parent="Z-QhGD6ONhxHMMDBWDxq-1">
           <mxGeometry x="615" y="906.1679600647598" width="120" height="69.90825688073393" as="geometry" />
         </mxCell>
         <mxCell id="Z-QhGD6ONhxHMMDBWDxq-69" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="Z-QhGD6ONhxHMMDBWDxq-1" source="Z-QhGD6ONhxHMMDBWDxq-64" target="Z-QhGD6ONhxHMMDBWDxq-68">
