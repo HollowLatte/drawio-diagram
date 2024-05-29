@@ -1,11 +1,11 @@
-<mxfile host="app.diagrams.net" modified="2024-05-29T20:34:45.120Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/125.0.0.0 Safari/537.36 Edg/125.0.0.0" etag="O8UqUZA2zS3dbdjxa2t_" version="24.4.10" type="github">
+<mxfile host="app.diagrams.net" modified="2024-05-29T20:46:57.444Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/125.0.0.0 Safari/537.36 Edg/125.0.0.0" etag="vGHLDs6-kIEm9pAO5QDh" version="24.4.10" type="github">
   <diagram id="prtHgNgQTEPvFCAcTncT" name="Page-1">
     <mxGraphModel dx="1341" dy="1026" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1654" pageHeight="2336" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
         <mxCell id="dNxyNK7c78bLwvsdeMH5-19" value="Pool" style="swimlane;html=1;childLayout=stackLayout;resizeParent=1;resizeParentMax=0;horizontal=0;startSize=20;horizontalStack=0;" parent="1" vertex="1">
-          <mxGeometry x="120" y="120" width="540" height="360" as="geometry" />
+          <mxGeometry x="120" y="120" width="1000" height="360" as="geometry" />
         </mxCell>
         <mxCell id="dNxyNK7c78bLwvsdeMH5-27" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;dashed=1;endArrow=none;endFill=0;" parent="dNxyNK7c78bLwvsdeMH5-19" target="dNxyNK7c78bLwvsdeMH5-26" edge="1">
           <mxGeometry relative="1" as="geometry">
@@ -29,10 +29,10 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="dNxyNK7c78bLwvsdeMH5-20" value="Lane 1" style="swimlane;html=1;startSize=20;horizontal=0;container=0;" parent="dNxyNK7c78bLwvsdeMH5-19" vertex="1">
-          <mxGeometry x="20" width="520" height="120" as="geometry" />
+          <mxGeometry x="20" width="980" height="120" as="geometry" />
         </mxCell>
         <mxCell id="dNxyNK7c78bLwvsdeMH5-21" value="Lane 2" style="swimlane;html=1;startSize=20;horizontal=0;" parent="dNxyNK7c78bLwvsdeMH5-19" vertex="1">
-          <mxGeometry x="20" y="120" width="520" height="120" as="geometry" />
+          <mxGeometry x="20" y="120" width="980" height="120" as="geometry" />
         </mxCell>
         <mxCell id="dNxyNK7c78bLwvsdeMH5-29" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=classic;endFill=1;" parent="dNxyNK7c78bLwvsdeMH5-21" source="dNxyNK7c78bLwvsdeMH5-26" target="dNxyNK7c78bLwvsdeMH5-28" edge="1">
           <mxGeometry relative="1" as="geometry" />
@@ -44,7 +44,7 @@
           <mxGeometry x="260" y="40" width="40" height="40" as="geometry" />
         </mxCell>
         <mxCell id="dNxyNK7c78bLwvsdeMH5-22" value="Lane 3" style="swimlane;html=1;startSize=20;horizontal=0;" parent="dNxyNK7c78bLwvsdeMH5-19" vertex="1">
-          <mxGeometry x="20" y="240" width="520" height="120" as="geometry" />
+          <mxGeometry x="20" y="240" width="980" height="120" as="geometry" />
         </mxCell>
         <mxCell id="dNxyNK7c78bLwvsdeMH5-37" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=classic;endFill=1;" parent="dNxyNK7c78bLwvsdeMH5-22" source="dNxyNK7c78bLwvsdeMH5-34" target="dNxyNK7c78bLwvsdeMH5-36" edge="1">
           <mxGeometry relative="1" as="geometry" />
@@ -56,22 +56,22 @@
           <mxGeometry x="360" y="30" width="40" height="40" as="geometry" />
         </mxCell>
         <mxCell id="Z-QhGD6ONhxHMMDBWDxq-10" value="" style="group" vertex="1" connectable="0" parent="1">
-          <mxGeometry x="220" y="650" width="810" height="1190" as="geometry" />
+          <mxGeometry x="220" y="650" width="810" height="1401.651376146789" as="geometry" />
         </mxCell>
         <mxCell id="Z-QhGD6ONhxHMMDBWDxq-20" value="" style="group" vertex="1" connectable="0" parent="Z-QhGD6ONhxHMMDBWDxq-10">
-          <mxGeometry y="10.91743119266055" width="810" height="1179.0825688073394" as="geometry" />
+          <mxGeometry y="11.651376146788989" width="810" height="1390" as="geometry" />
         </mxCell>
         <mxCell id="Z-QhGD6ONhxHMMDBWDxq-1" value="WebSocket连接" style="swimlane;whiteSpace=wrap;html=1;swimlaneLine=1;startSize=30;container=0;" vertex="1" parent="Z-QhGD6ONhxHMMDBWDxq-20">
-          <mxGeometry width="810" height="1179.0825688073394" as="geometry" />
+          <mxGeometry width="810" height="1390" as="geometry" />
         </mxCell>
         <mxCell id="Z-QhGD6ONhxHMMDBWDxq-11" value="" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="Z-QhGD6ONhxHMMDBWDxq-1">
-          <mxGeometry x="363.4615384615384" y="107.18932443703085" width="62.005813953488364" height="62.005813953488364" as="geometry" />
+          <mxGeometry x="363.4615384615384" y="114.39532944120099" width="62.005813953488364" height="62.005813953488364" as="geometry" />
         </mxCell>
         <mxCell id="Z-QhGD6ONhxHMMDBWDxq-21" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;dashed=1;" edge="1" parent="Z-QhGD6ONhxHMMDBWDxq-1" source="Z-QhGD6ONhxHMMDBWDxq-12" target="Z-QhGD6ONhxHMMDBWDxq-18">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="Z-QhGD6ONhxHMMDBWDxq-12" value="创建客户端设备，生成配对码" style="whiteSpace=wrap;html=1;" vertex="1" parent="Z-QhGD6ONhxHMMDBWDxq-1">
-          <mxGeometry x="70.00307692307692" y="669.0780984153461" width="124.61538461538461" height="80.39199332777314" as="geometry" />
+          <mxGeometry x="70.00307692307692" y="714.0581386449492" width="124.61538461538461" height="85.79649708090074" as="geometry" />
         </mxCell>
         <mxCell id="Z-QhGD6ONhxHMMDBWDxq-13" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="Z-QhGD6ONhxHMMDBWDxq-1" source="Z-QhGD6ONhxHMMDBWDxq-11" target="Z-QhGD6ONhxHMMDBWDxq-14">
           <mxGeometry relative="1" as="geometry" />
@@ -80,10 +80,10 @@
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="Z-QhGD6ONhxHMMDBWDxq-16" value="获取连接参数" style="whiteSpace=wrap;html=1;" vertex="1" parent="Z-QhGD6ONhxHMMDBWDxq-1">
-          <mxGeometry x="612.6923076923076" y="209.08197664720598" width="124.61538461538461" height="80.39199332777314" as="geometry" />
+          <mxGeometry x="612.6923076923076" y="223.1379078503795" width="124.61538461538461" height="85.79649708090074" as="geometry" />
         </mxCell>
         <mxCell id="Z-QhGD6ONhxHMMDBWDxq-37" value="监听心跳" style="whiteSpace=wrap;html=1;" vertex="1" parent="Z-QhGD6ONhxHMMDBWDxq-1">
-          <mxGeometry x="612.6923076923076" y="559.084979149291" width="124.61538461538461" height="80.39199332777314" as="geometry" />
+          <mxGeometry x="612.6923076923076" y="596.67052396605" width="124.61538461538461" height="85.79649708090074" as="geometry" />
         </mxCell>
         <mxCell id="Z-QhGD6ONhxHMMDBWDxq-63" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;shape=link;" edge="1" parent="Z-QhGD6ONhxHMMDBWDxq-1" source="Z-QhGD6ONhxHMMDBWDxq-62" target="Z-QhGD6ONhxHMMDBWDxq-37">
           <mxGeometry relative="1" as="geometry" />
@@ -91,8 +91,8 @@
         <mxCell id="Z-QhGD6ONhxHMMDBWDxq-75" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="Z-QhGD6ONhxHMMDBWDxq-1" source="Z-QhGD6ONhxHMMDBWDxq-64" target="Z-QhGD6ONhxHMMDBWDxq-37">
           <mxGeometry relative="1" as="geometry">
             <Array as="points">
-              <mxPoint x="780" y="737" />
-              <mxPoint x="780" y="599" />
+              <mxPoint x="780" y="786.546218487395" />
+              <mxPoint x="780" y="639.2689075630252" />
             </Array>
           </mxGeometry>
         </mxCell>
@@ -102,37 +102,37 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="Z-QhGD6ONhxHMMDBWDxq-64" value="心跳正常" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="Z-QhGD6ONhxHMMDBWDxq-1">
-          <mxGeometry x="633.4615384615385" y="688.8013288565214" width="83.07692307692307" height="97.24392320060531" as="geometry" />
+          <mxGeometry x="633.4615384615385" y="735.1073005443548" width="83.07692307692307" height="103.78132980232667" as="geometry" />
         </mxCell>
         <mxCell id="Z-QhGD6ONhxHMMDBWDxq-65" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="Z-QhGD6ONhxHMMDBWDxq-1" source="Z-QhGD6ONhxHMMDBWDxq-37" target="Z-QhGD6ONhxHMMDBWDxq-64">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="Z-QhGD6ONhxHMMDBWDxq-8" value="客户端" style="swimlane;whiteSpace=wrap;html=1;startSize=30;container=0;" vertex="1" parent="Z-QhGD6ONhxHMMDBWDxq-1">
-          <mxGeometry x="269.99999999999994" y="40.19599666388657" width="269.99999999999994" height="1138.886572143453" as="geometry" />
+          <mxGeometry x="270" y="42.9" width="270" height="1347.1" as="geometry" />
         </mxCell>
         <mxCell id="Z-QhGD6ONhxHMMDBWDxq-14" value="配置WebSocket服务地址，启动设备便发起WS连接" style="whiteSpace=wrap;html=1;" vertex="1" parent="Z-QhGD6ONhxHMMDBWDxq-8">
-          <mxGeometry x="62.152307692307716" y="168.88597998331937" width="124.61538461538461" height="80.39199332777314" as="geometry" />
+          <mxGeometry x="62.152307692307716" y="180.23965930992907" width="124.61538461538461" height="85.79649708090074" as="geometry" />
         </mxCell>
         <mxCell id="Z-QhGD6ONhxHMMDBWDxq-18" value="填写配对码并绑定" style="whiteSpace=wrap;html=1;" vertex="1" parent="Z-QhGD6ONhxHMMDBWDxq-8">
-          <mxGeometry x="75.00153846153853" y="628.8850792326938" width="124.61538461538461" height="80.39199332777314" as="geometry" />
+          <mxGeometry x="75.00153846153853" y="671.1630677525387" width="124.61538461538461" height="85.79649708090074" as="geometry" />
         </mxCell>
         <mxCell id="Z-QhGD6ONhxHMMDBWDxq-62" value="发送心跳" style="whiteSpace=wrap;html=1;" vertex="1" parent="Z-QhGD6ONhxHMMDBWDxq-8">
-          <mxGeometry x="72.69230769230774" y="518.8889824854044" width="124.61538461538461" height="80.39199332777314" as="geometry" />
+          <mxGeometry x="72.69230769230774" y="553.7722754255997" width="124.61538461538461" height="85.79649708090074" as="geometry" />
         </mxCell>
         <mxCell id="Z-QhGD6ONhxHMMDBWDxq-78" value="携带设备信息（如系统类型、版本号、配对码），发起绑定请求" style="whiteSpace=wrap;html=1;" vertex="1" parent="Z-QhGD6ONhxHMMDBWDxq-8">
-          <mxGeometry x="77.3092307692308" y="768.891509591326" width="120" height="65.50458715596329" as="geometry" />
+          <mxGeometry x="77.3092307692308" y="820.5816951100705" width="120" height="69.90825688073393" as="geometry" />
         </mxCell>
         <mxCell id="Z-QhGD6ONhxHMMDBWDxq-79" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="Z-QhGD6ONhxHMMDBWDxq-8" source="Z-QhGD6ONhxHMMDBWDxq-18" target="Z-QhGD6ONhxHMMDBWDxq-78">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="Z-QhGD6ONhxHMMDBWDxq-96" value="存储token" style="whiteSpace=wrap;html=1;" vertex="1" parent="Z-QhGD6ONhxHMMDBWDxq-8">
-          <mxGeometry x="77.30500000000005" y="981.6345537948288" width="120" height="60" as="geometry" />
+        <mxCell id="Z-QhGD6ONhxHMMDBWDxq-96" value="存储token，发送type为绑定成功的WS消息" style="whiteSpace=wrap;html=1;" vertex="1" parent="Z-QhGD6ONhxHMMDBWDxq-8">
+          <mxGeometry x="77.30500000000005" y="1047.6267927054055" width="120" height="64.03361344537815" as="geometry" />
         </mxCell>
         <mxCell id="Z-QhGD6ONhxHMMDBWDxq-85" value="绑定失败" style="whiteSpace=wrap;html=1;" vertex="1" parent="Z-QhGD6ONhxHMMDBWDxq-8">
-          <mxGeometry x="75.00500000000007" y="878.8822602168473" width="120" height="65.50458715596329" as="geometry" />
+          <mxGeometry x="75.00500000000007" y="937.9667819120975" width="120" height="69.90825688073393" as="geometry" />
         </mxCell>
         <mxCell id="Z-QhGD6ONhxHMMDBWDxq-68" value="断开WebSocket连接" style="whiteSpace=wrap;html=1;" vertex="1" parent="Z-QhGD6ONhxHMMDBWDxq-1">
-          <mxGeometry x="615" y="849.0865137614678" width="120" height="65.50458715596329" as="geometry" />
+          <mxGeometry x="615" y="906.1679600647598" width="120" height="69.90825688073393" as="geometry" />
         </mxCell>
         <mxCell id="Z-QhGD6ONhxHMMDBWDxq-69" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="Z-QhGD6ONhxHMMDBWDxq-1" source="Z-QhGD6ONhxHMMDBWDxq-64" target="Z-QhGD6ONhxHMMDBWDxq-68">
           <mxGeometry relative="1" as="geometry" />
@@ -154,28 +154,46 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="Z-QhGD6ONhxHMMDBWDxq-83" value="配对码是否存在？配对码是否已绑定？" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="Z-QhGD6ONhxHMMDBWDxq-1">
-          <mxGeometry x="70" y="798.1690825688072" width="102.31" height="87.3394495412844" as="geometry" />
+          <mxGeometry x="70" y="851.8275082877186" width="102.31" height="93.21100917431191" as="geometry" />
         </mxCell>
         <mxCell id="Z-QhGD6ONhxHMMDBWDxq-84" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="Z-QhGD6ONhxHMMDBWDxq-1" source="Z-QhGD6ONhxHMMDBWDxq-78" target="Z-QhGD6ONhxHMMDBWDxq-83">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="Z-QhGD6ONhxHMMDBWDxq-90" value="绑定成功，更新设备信息，更新设备状态为已绑定，生成token" style="whiteSpace=wrap;html=1;" vertex="1" parent="Z-QhGD6ONhxHMMDBWDxq-1">
-          <mxGeometry x="61.154999999999994" y="1019.0782568807339" width="120" height="65.50458715596329" as="geometry" />
+          <mxGeometry x="61.154999999999994" y="1087.5877195281782" width="120" height="69.90825688073393" as="geometry" />
         </mxCell>
         <mxCell id="Z-QhGD6ONhxHMMDBWDxq-97" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="Z-QhGD6ONhxHMMDBWDxq-1" source="Z-QhGD6ONhxHMMDBWDxq-90" target="Z-QhGD6ONhxHMMDBWDxq-96">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
+        <mxCell id="Z-QhGD6ONhxHMMDBWDxq-110" value="token校验是否成功" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="Z-QhGD6ONhxHMMDBWDxq-1">
+          <mxGeometry x="634.9950000000001" y="1079.8527723382929" width="80" height="85.3781512605042" as="geometry" />
+        </mxCell>
+        <mxCell id="Z-QhGD6ONhxHMMDBWDxq-111" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="Z-QhGD6ONhxHMMDBWDxq-1" source="Z-QhGD6ONhxHMMDBWDxq-96" target="Z-QhGD6ONhxHMMDBWDxq-110">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Z-QhGD6ONhxHMMDBWDxq-112" value="从token中解析出配对码，添加到online_pool；key为配对码，value为Session" style="whiteSpace=wrap;html=1;" vertex="1" parent="Z-QhGD6ONhxHMMDBWDxq-1">
+          <mxGeometry x="614.9950000000001" y="1183.6405874643435" width="120" height="64.03361344537815" as="geometry" />
+        </mxCell>
+        <mxCell id="Z-QhGD6ONhxHMMDBWDxq-113" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="Z-QhGD6ONhxHMMDBWDxq-1" source="Z-QhGD6ONhxHMMDBWDxq-110" target="Z-QhGD6ONhxHMMDBWDxq-112">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Z-QhGD6ONhxHMMDBWDxq-114" value="Redis中维护一个online_map的zset" style="whiteSpace=wrap;html=1;" vertex="1" parent="Z-QhGD6ONhxHMMDBWDxq-1">
+          <mxGeometry x="614.9950000000001" y="1298.351007632411" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="Z-QhGD6ONhxHMMDBWDxq-115" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="Z-QhGD6ONhxHMMDBWDxq-1" source="Z-QhGD6ONhxHMMDBWDxq-112" target="Z-QhGD6ONhxHMMDBWDxq-114">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
         <mxCell id="Z-QhGD6ONhxHMMDBWDxq-2" value="设备服务" style="swimlane;whiteSpace=wrap;html=1;startSize=30;container=0;" vertex="1" parent="Z-QhGD6ONhxHMMDBWDxq-20">
-          <mxGeometry y="40.19599666388657" width="269.99999999999994" height="1138.886572143453" as="geometry" />
+          <mxGeometry y="42.9" width="270" height="1347.1" as="geometry" />
         </mxCell>
         <mxCell id="Z-QhGD6ONhxHMMDBWDxq-9" value="WebSocket服务" style="swimlane;whiteSpace=wrap;html=1;startSize=30;container=0;" vertex="1" parent="Z-QhGD6ONhxHMMDBWDxq-20">
-          <mxGeometry x="539.9999999999999" y="40.19599666388657" width="269.99999999999994" height="1138.886572143453" as="geometry" />
+          <mxGeometry x="540" y="42.9" width="270" height="1347.1" as="geometry" />
         </mxCell>
         <mxCell id="Z-QhGD6ONhxHMMDBWDxq-30" value="添加到&lt;span style=&quot;font-size: 15px;&quot;&gt;connection_pool；key为Session，value为想要保存的连接参数&lt;/span&gt;" style="whiteSpace=wrap;html=1;" vertex="1" parent="Z-QhGD6ONhxHMMDBWDxq-9">
-          <mxGeometry x="59.71" y="388.56" width="150.58" height="101.44" as="geometry" />
+          <mxGeometry x="59.71" y="414.6816806722689" width="150.58" height="108.25949579831932" as="geometry" />
         </mxCell>
         <mxCell id="Z-QhGD6ONhxHMMDBWDxq-92" value="是否存在token" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="Z-QhGD6ONhxHMMDBWDxq-9">
-          <mxGeometry x="93.45999999999992" y="278.8839699749791" width="80" height="80" as="geometry" />
+          <mxGeometry x="93.45999999999992" y="297.63247215817097" width="80" height="85.3781512605042" as="geometry" />
         </mxCell>
         <mxCell id="Z-QhGD6ONhxHMMDBWDxq-94" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="Z-QhGD6ONhxHMMDBWDxq-9" source="Z-QhGD6ONhxHMMDBWDxq-92" target="Z-QhGD6ONhxHMMDBWDxq-30">
           <mxGeometry relative="1" as="geometry" />
@@ -190,7 +208,7 @@
           <mxGeometry x="1150" y="1050" width="340" height="10" as="geometry" />
         </mxCell>
         <mxCell id="Z-QhGD6ONhxHMMDBWDxq-102" value="问题清单" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="1180" y="1576" width="410" height="320" as="geometry" />
+          <mxGeometry x="1090" y="1430" width="410" height="320" as="geometry" />
         </mxCell>
         <mxCell id="Z-QhGD6ONhxHMMDBWDxq-103" value="客户端绑定后，后台服务如何确定ONLINE状态" style="text;strokeColor=default;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" vertex="1" parent="Z-QhGD6ONhxHMMDBWDxq-102">
           <mxGeometry y="30" width="410" height="30" as="geometry" />
